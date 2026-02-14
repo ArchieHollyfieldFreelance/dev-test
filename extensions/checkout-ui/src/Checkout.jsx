@@ -17,11 +17,10 @@ export default async () => {
 function Extension() {
   var eligible = false;
   const lines = shopify.lines.v;
-  console.log(lines);
+
   var restrictedItems = false;
 
   lines.forEach((line) => {
-    console.log(line);
     const attributes = line.attributes;
     attributes.forEach((attribute) => {
       if (attribute.key === "_restricted" && attribute.value === "Restricted") {
@@ -63,7 +62,7 @@ function Extension() {
     };
 
     return (
-      <s-banner heading="checkout-ui">
+      <s-banner heading="Eligibility Validation Required">
         <s-stack gap="base">
           <s-checkbox
             checked={eligible}
