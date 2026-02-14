@@ -1,4 +1,4 @@
-You can preview this work [here](https://archie-headless.myshopify.com/). The store password is included in the email this repo link was contained in.
+You can preview this work [here](https://archie-headless.myshopify.com/). The store password sesame.
 
 Having not worked with Checkout Extensions and Checkout UI extensions before I chose to attempt this task as I felt it would be a good opportunity to learn a new skill regardless of my success with this application.
 
