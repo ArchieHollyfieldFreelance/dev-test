@@ -13,4 +13,8 @@ Using the tag 'restricted' on products and then if the product has that tag appl
 
 I followed Shopify docs for the set up for an extension and then stripped the default content down to the barebones. I used the Shopify docs to ascertain the requirements for the toml file in my extension to understand how blocking the checkout works and including the block setting in the checkout editor.
 
+Once I had the checkbox working I needed to tie it into the items in the checkout. I did this using the attribute mentioned above. Created a boolean variable set to false by default and then looped through the products and if there is one item thats restricted it switches to true. When true it loads the checkout block full and allows the validation functionality to work.
+
 I am unsure if I have used the best practices for this and there were instances where having an experienced dev to lean on would have cleared blockers quickly, but I believe I have delivered what was required.
+
+Other method considered for getting product tag was to get the GID from the line item and then use the storefront api to get the actual tags so we aren't reliant on theme alterations for this to work, but it felt like a reasonable trade off.
