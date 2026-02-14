@@ -7,6 +7,7 @@ I initially did this using metafields and cart validation methods, this proved t
 After I re-read the brief I interpreted it as:
 
 An item marked as restricted cannot be checked out unless the customer self validates. This must be done within the checkout.
+
 So I opted to create a checkbox that would block checking out if unchecked.
 Using the tag 'restricted' on products and then if the product has that tag applying the restricted cart attribute as tags are not directly accessible in the checkout.
 
