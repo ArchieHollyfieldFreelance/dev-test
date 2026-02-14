@@ -16,6 +16,7 @@ export default async () => {
 
 function Extension() {
   var eligible = false;
+  // unsure about getting lines this way - would like to know if there is a correct way to do so or if v is a valid option.
   const lines = shopify.lines.v;
 
   var restrictedItems = false;
