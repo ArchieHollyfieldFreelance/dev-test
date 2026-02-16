@@ -1,4 +1,4 @@
-You can preview this work [here](https://archie-headless.myshopify.com/). The store password sesame.
+You can preview this work [here](https://archie-headless.myshopify.com/). The store password sesame. Bogus payment gateway is active - cardnumber is `1` then valid exp date and security code, any name.
 
 Having not worked with Checkout Extensions and Checkout UI extensions before I chose to attempt this task as I felt it would be a good opportunity to learn a new skill regardless of my success with this application.
 
